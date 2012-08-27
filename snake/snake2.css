@@ -1,0 +1,78 @@
+body{
+	background:gray;
+}
+
+#container{
+	margin: auto;
+	width: 1100px;
+	height: 400px;
+}
+
+#canvas_div{
+	float: left;
+	width: 800px;
+	height: 400px;
+}
+
+#my_canvas{
+	background: white;
+}
+
+#sidebar{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#control_panel {
+	background-color: #fafbc5;
+	border-radius: 8px;
+	background-color: #fafbc5;
+	width: 210px;
+	height: 90px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+#message_panel {
+	background-color: #fafbc5;
+	border-radius: 8px;
+	width: 210px;
+	height: 280px;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+#score_history_div {
+	color: green;
+	margin-top: 10px;
+}
+
+#score_history {
+	font-size: 12px;
+	text-align: center;
+	margin: 5px auto 0;
+}
+
+#score_history th{
+	border-bottom: 1px dashed green;	
+}
+
+#score_history td {
+	border-bottom: 1px dashed green;
+	border-left: 1px dashed green;
+	padding: 2px 5px;
+	font-family: Arial;
+}
+
+#score_history td.last{
+	border-right: 1px dashed green;	
+}
+
+#score_history td.sn {
+	color: olive;
+}
+
+#score_history td.value {
+	color: navy;
+}

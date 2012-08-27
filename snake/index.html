@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="utf8" />
+<title>Snake Game</title>
+
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript" src="jquery.json-2.3.js"></script>
+<script type="text/javascript" src="snake2.js"></script>
+
+<link href="snake2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div id="container">
+		<div id="canvas_div"><canvas id="my_canvas"></canvas></div>
+		<div id="sidebar">
+			<div id="control_panel">
+				<button id="startBtn" autocomplete="off">开始游戏</button>
+				<button id="pauseBtn" autocomplete="off">暂停游戏</button>
+				<button id="resetBtn" autocomplete="off">重新开始</button>
+				<p>
+					<label for="level_select">选择级别：</label>
+					<select id="level_select" autocomplete="off">
+						<option value="500">1</option>
+						<option value="450">2</option>
+						<option value="400">3</option>
+						<option value="350">4</option>
+						<option value="300">5</option>
+						<option value="250">6</option>
+						<option value="200">7</option>
+						<option value="150">8</option>
+						<option value="100">9</option>
+						<option value="50">10</option>
+						<option value="20">11</option>
+						<option value="1">极限模式</option>
+					</select>
+					级
+				</p>
+				<button id="save_game_status">保存游戏状态</button>
+				<button id="reset_game_status">重置游戏状态</button>
+			</div>
+			<div id="message_panel">
+				<p>状态：<span id="status" style="color: red;"></span></p>
+				<p>选择的的级别是：<span id="selected_level" style="color: red;"></span> 级</p>
+				<p>得分：<span id="score" style="color: red;"></span></p>
+				<div style="border-bottom: 1px dotted;"></div>
+				<div id="score_history_div">
+					历史得分
+					<table id="score_history"></table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

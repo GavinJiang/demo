@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="utf8">
+<title>Tetris Game</title>
+
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript" src="tetris.js"></script>
+
+<link href="tetris.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<div id="container">
+		<div id="tip_panel">Tetris: Use the arrow keys and the space key to control</div>
+		<div id="main_panel"></div>
+		<div id="sidebar">
+			<div id="top_score_panel">
+				<div class="title">Top Score</div>
+				<div id="top_score">0</div>
+			</div>
+			<div id="preview_canvas_div"><canvas id="preview_canvas"></canvas></div>
+			<div id="level_panel">
+				<div class="title">Level</div>
+				<div id="level">1</div>
+			</div>
+			<div id="score_panel">
+				<div class="title">Score</div>
+				<div id="score">0</div>
+			</div>
+			<div id="control_panel">
+				<button id="start_pause_btn" autocomplete="off"></button>
+				<button id="restart_btn">Restart</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

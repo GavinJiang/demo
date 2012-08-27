@@ -1,0 +1,118 @@
+body{
+	background-color: gray;
+}
+
+img{
+	display: none;
+}
+
+#container{
+	margin: auto;
+	width: 360px;
+}
+
+#tip_panel {
+	background-color: #fafbc5;
+	padding: 5px;
+	border-radius: 5px;
+	width: 340px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: gray;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+#main_panel {
+	background-color: #a1b875;
+	display: inline-block;
+	float: left;
+}
+
+#main_panel canvas {
+	position: absolute;
+}
+
+#sidebar{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#preview_canvas_div{
+	width: 100px;
+	height: 120px;
+	background-color: #A1B875;
+	border-radius: 8px;	
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#level_panel{
+	width: 100px;
+	height: 80px;
+	background-color: #A1B875;
+	border-radius: 8px;
+	margin-bottom: 10px;	
+	text-align: center;
+	font-family: Consolas;
+}
+
+#level_panel .title{
+	padding-top: 10px;
+	color: blue;
+}
+
+#level_panel #level{
+	color: green;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 7px;
+	font-style: italic;
+}
+
+#score_panel, #top_score_panel{
+	width: 100px;
+	height: 80px;
+	background-color: #A1B875;
+	border-radius: 8px;
+	margin-bottom: 10px;	
+	text-align: center;
+	font-family: Consolas;
+}
+
+#score_panel .title, #top_score_panel .title{
+	padding-top: 10px;
+	color: blue;
+}
+
+#top_score_panel #top_score{
+	color: #FFFF00;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 7px;
+	font-style: italic;
+}
+
+#score_panel #score {
+	color: maroon;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 7px;
+	font-style: italic;
+}
+
+#control_panel {
+	width: 100px;
+	background-color: #A1B875;
+	border-radius: 8px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#control_panel button{
+	display: block;
+	width: 80px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
