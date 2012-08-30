@@ -1,0 +1,1 @@
+This is developed by HTML5. So please use the browser which support HTML5 to open it, such as Chrome, FF, Safari etc.
